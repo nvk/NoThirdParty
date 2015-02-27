@@ -1,0 +1,17 @@
+Mycelium has become the to go-to mobile wallet for Bitcoin users due to its advanced features and ability for the user to control the private keys.
+
+Users can easily spend from cold storage by scanning or importing private keys, and can even decrypt BIP38 wallets.
+
+## Security
+
+A mobile wallet is only as secure as the device it’s running on. Mycelium encrypts all your data and keys. If using Android, it’s still best to use only with an unrooted device.
+
+Users can create a backup by writing down the 12 word seed provided in the app. If the phone is reset or lost, all of the funds can be recovered.
+
+Mycelium is a great choice for day-to-day spending with small amounts.
+
+## Privacy
+
+The Android version of Mycelium allows you to connect to a server through TOR. As an HD wallet, Mycelium automatically does not re-use addresses which is basic Bitcoin privacy.
+
+The Mycelium developers recognized that users value their privacy, and plan to implement CoinJoin in future updates.
