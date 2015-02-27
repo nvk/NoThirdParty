@@ -1,0 +1,19 @@
+GreenAddress is a multisignature Bitcoin wallet available on the web, desktop, Android, and iOS.
+
+By default, GA is a 2 of 2 wallet, which means that the user controls one private key, and GA the other. GreenAddress must sign every transaction. This forces the user to rely on GA, but offers true 2-factor authentication.
+
+GreenAddress has a unique instant-confirmation feature. GA asserts that it will never sign a double-spend transaction. Users can send & receive to other GA users and receive instant confirmations, but this only works if the other party trusts GreenAddress.
+
+## Security
+
+GreenAddress offers a unique setup with its options of 2-2 wallets and 2-3 wallets.
+
+In a 2 of 2 wallet, the user controls one key and GreenAddress controls the other. If GreenAddress’s servers go down, the user cannot immediately spend his/her coins, because it would be impossible to access the GA’s signature. GreenAddress solves this by providing nLocktime transactions, which release the user’s funds after a chosen period of time.
+
+GreenAddress has a PIN feature that is needed to access funds. After three incorrect guesses, the wallet is erased from GA servers and the user must recover his funds with his HD seed.
+
+## Privacy
+
+Users in need of privacy should avoid linking their social networks to their account. GreenAddress plans to add CoinJoin in a future update.
+
+As an HD wallet, GreenAddress uses a new address for every transaction and does not re-use addresses.
