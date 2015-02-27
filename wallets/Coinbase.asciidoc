@@ -1,0 +1,17 @@
+Coinbase, founded in 2013, is a US-based Bitcoin company and has received over $100 million in VC funding. Coinbase offers a simple user interface and is a good start for users just learning about Bitcoin.
+
+## Security
+
+There are three options when creating a new Bitcoin wallet on Coinbase: wallet, vault, and multi-sig vault.
+
+**Wallet:** When using Coinbase’s regular hot wallet, Coinbase controls the private keys. A user must trust that Coinbase will keep the keys secure. Users must also keep their password safe, and also the 2FA code if 2FA is activated (which it should be). Coinbase is VC backed company with over $100 million in funding. They likely have a very strong security setup. However, the point of Bitcoin is that users control their own money. Coinbase can shut down an account and take the balance with it at any time. This is a threat that must be considered when using Coinbase.
+
+**Vault:** Coinbase created a unique solution for securing larger amounts of bitcoin. Bitcoins stored in a Vault account can be protected by multiple approvers. If a user adds two approvers to his vault, the both must confirm that the withdrawal is valid before it processes. All withdrawals from Vaults take 48-hours to process. The time delay provides a safety net; if a user sees a withdrawal was requested, there is time to cancel. Like the regular wallet, a user still must trust that Coinbase itself secures the user’s funds in a secure manner. Vault accounts can also be shutdown by Coinbase at anytime.
+
+**Multisig Vault:** Coinbase understands that many users want complete control over their funds. Their multi-sig vault is a 2 of 3 wallet, where Coinbase has one key, one key is shared, and the third key is held by the account holder. Any two of the three keys allows spending of funds. If Coinbase goes down, the user still has both the shared key and his/her own key. Coinbase cannot hold funds because they need the shared key which is encrypted with the user’s password. This is a decent solution for cold storage.
+
+## Privacy
+
+Coinbase requires your name, phone number, email, and a number of other personal details when setting up a wallet. Because Coinbase has buy/sell features, it must also follow all KYC laws. There have been reports that Coinbase tracks how its users spend bitcoin.
+
+Coinbase is not recommended to users who value their privacy.
