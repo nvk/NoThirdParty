@@ -1,0 +1,15 @@
+Circle is a digital money company focused on making money “instant, secure, and free”. Its homepage only briefly mentions Bitcoin, and its wallet doesn’t do much more than receiving and spending.
+
+## Security
+
+Circle is a web/hot wallet, and should not be used to store large amounts of bitcoin. With full control over your account, Circle can freeze your funds at any time.
+
+Circle offers insurance on the bitcoin it holds for its customers. However, a loss is only covered if something goes wrong on Circle’s end. If an account is hacked, a user’s bitcoins are gone and Circle cannot help.
+
+Circle requires its users to setup two-factor authentication.
+
+## Privacy
+
+Circle requires your name, phone number, email, and a number of other personal details when setting up a wallet. Because Circle has buy/sell features, it must also follow all KYC laws. It can also monitor your IP address.
+
+Circle is not recommended to users who value their privacy.
