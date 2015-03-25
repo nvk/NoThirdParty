@@ -1,16 +1,16 @@
-TREZOR launched in August 2014 as the first Bitcoin hardware wallet, offering secure cold storage with the ability to spend with the convenience of a hot wallet. TREZOR is a small, key-sized device which connects to your computer with a USB cable. It stores your Bitcoin private keys offline and signs transactions for you. It can be safely used on a malware infected computer.
+TREZOR launched in August 2014 as the first Bitcoin hardware wallet, offering secure cold storage plus the ability to spend with the convenience of a hot wallet. TREZOR is a small, key-sized device which connects to your computer with a USB cable. It stores your Bitcoin private keys offline and signs transactions for you. It can be safely used on a malware infected computer.
 
 TREZOR is compatible with a number of wallets, including Electrum, Multibit HD, and GreenAddress on desktop, GreenBits on Android, and myTREZOR.com on the web.
 
 ## Security
 
-TREZOR provides top-notch security for your bitcoins–there may not be a better option. The setup protects you from both physical and virtual theft.
+TREZOR provides top-notch security for bitcoins–there may not be a better option. The setup protects against both physical and virtual theft.
 
-TREZOR is an HD wallet, so your entire wallet can be backed up with 24 words which are generated for you on setup. The original 24-word seed is generated with RNG from both the device and the computer. The seed is generated offline and displayed on your TREZOR’s screen, which ensures that the seed is never on an internet-connected device.
+TREZOR is an HD wallet where the user controls the private keys, so an entire wallet can be backed up with 24 words which are generated on setup. The original 24-word seed is generated with RNG from both the device and the computer. The seed is generated offline and displayed on the TREZOR’s screen, which ensures that the seed is never on an internet-connected device.
 
 On setup, the user generates a PIN code. If someone steals the TREZOR itself, the PIN is required for spending. After each incorrect guess, the wait between guesses is raised by a power of two. Making 30 guesses would take 17 years at this rate.
 
-For extra security, the user can add a passphrase to the 24-word seed. This acts as a 25th word in the seed. The user must remember the passphrase because the seed without the passphrase is not enough to recover the wallet. A passphrase offers more security, but if forgotten the wallet cannot be recovered.
+For extra security, users can add a passphrase to the 24-word seed. This acts as a 25th word in the seed. The user must remember the passphrase because the seed without the passphrase is not enough to recover the wallet. A passphrase offers more security, but if forgotten the wallet cannot be recovered.
 
 If a TREZOR is lost, the user can recover the entire wallet with the 24-word seed (and passphrase if used). Recovery can be done with another TREZOR or with other supported Bitcoin wallets.
 
@@ -20,8 +20,6 @@ A full overview of how TREZOR handles security threats can be found on the Satos
 
 ## Privacy
 
-TREZOR itself offers very good privacy. The device is shipped with no serial number, so Satoshi Labs has no way of tracking your actions after you receive the device. All of the software is open source, aside from the myTREZOR.com web wallet (other wallets may be used). The device itself is a login, so no usernames or passwords are needed when using TREZOR.
+TREZOR itself offers very good privacy. The device is shipped with no serial number, so Satoshi Labs has no way of tracking your actions after you receive the device. All of the software is open source. The device itself is a login, so no usernames or passwords are needed when using TREZOR.
 
-There are some concerns that myTREZOR.com has a closed backend. However, now that more wallets support TREZOR this has become less of an issue. A user can simply avoid myTREZOR.com.
-
-For users in need of more privacy, TREZOR can be used with Electrum connected to a TOR server.
+Privacy is determined by the wallet which the TREZOR is connected to: Electrum, Multibit HD, and GreenAddress on desktop, GreenBits and Mycelium on Android, and myTREZOR.com on the web.
