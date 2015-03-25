@@ -1,0 +1,23 @@
+Electrum is a light weight Bitcoin wallet for Mac, Linux, and Windows.
+
+The main features of Electrum are support for hardware wallets TREZOR and HW1, secure cold storage using an offline computer, and decentralized verification using SPV.
+
+## Security
+
+Electrum can function as a hot wallet or cold storage. For both wallet types, a 12 word seed is generated which allows the user to backup and restore the entire wallet and its keys.
+
+For cold storage, users generate the seed on a secure offline computer and write it down on a piece of paper. A master public key is created from the seed and imported into a seperate Electrum install on the user’s everyday computer. The user may now view the wallet balance, accept payments, and create new addresses on a hot computer without the risk of funds being stolen. All transactions must be signed by the offline computer.
+
+All Electrum private keys are encrypted and never leave the user’s computer. Regular Electrum wallet not using an offline computer should be treated as a hot wallet, as it’s still possible to have malware steal funds.
+
+Although Electrum relies on third-party servers, the worst attack they can do is fake transaction data. The servers have no way of accessing funds.
+
+Electrum is an HD wallet and uses change addresses by default.
+
+## Privacy
+
+Electrum is a lightweight Bitcoin client, and uses servers created by users to get transaction and balance information. A server has no way of knowing a user’s actual identity, but does the user’s IP address, wallet addresses, and balance.
+
+Tor can be used to prevent the server from knowing your IP address, but cannot prevent the server from knowing each user’s balance and addresses.
+
+Some servers claim to not log or store information, but it is impossible to know for sure without setting up an Electrum server.
