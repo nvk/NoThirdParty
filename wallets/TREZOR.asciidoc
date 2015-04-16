@@ -6,13 +6,13 @@ TREZOR is compatible with a number of wallets, including Electrum, Multibit HD, 
 
 TREZOR provides top-notch security for bitcoins–there may not be a better option. The setup protects against both physical and virtual theft.
 
-TREZOR is an HD wallet where the user controls the private keys, so an entire wallet can be backed up with 24 words which are generated on setup. The original 24-word seed is generated with RNG from both the device and the computer. The seed is generated offline and displayed on the TREZOR’s screen, which ensures that the seed is never on an internet-connected device.
+TREZOR is an HD wallet where you control the private keys, so an entire wallet can be backed up with 24 words which are generated on setup. The original 24-word seed is generated with RNG from both the device and the computer. The seed is generated offline and displayed on the TREZOR’s screen, which ensures that the seed is never on an internet-connected device.
 
 On setup, the user generates a PIN code. If someone steals the TREZOR itself, the PIN is required for spending. After each incorrect guess, the wait between guesses is raised by a power of two. Making 30 guesses would take 17 years at this rate.
 
-For extra security, users can add a passphrase to the 24-word seed. This acts as a 25th word in the seed. The user must remember the passphrase because the seed without the passphrase is not enough to recover the wallet. A passphrase offers more security, but if forgotten the wallet cannot be recovered.
+For extra security, you can add a passphrase to the 24-word seed. This acts as a 25th word in the seed. You must remember the passphrase because the seed without the passphrase is not enough to recover the wallet. A passphrase offers more security, but if forgotten the wallet cannot be recovered.
 
-If a TREZOR is lost, the user can recover the entire wallet with the 24-word seed (and passphrase if used). Recovery can be done with another TREZOR or with other supported Bitcoin wallets.
+If a TREZOR is lost, you can recover the entire wallet with the 24-word seed and passphrase if used. Recovery can be done with another TREZOR or with other supported Bitcoin wallets.
 
 TREZOR’s screen allows you to confirm that you’re sending to the intended recipient, but this does not prevent against phishing attacks. If someone changes the address on your computer, it’d still appear as the correct address even when confirming with TREZOR’s screen. In the future, BIP70 will help prevent against this kind of attack.
 
