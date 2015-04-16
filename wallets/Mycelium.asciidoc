@@ -1,6 +1,6 @@
-Mycelium, founded in 2008, is a Bitcoin company with 35 employees located in Europe, Asia, and America. Mycelium offers mobile wallets for iPhone and Android, both of which are open source.
+Mycelium, founded in 2008, is a Bitcoin company with 35 employees located in Europe, Asia, and America. Mycelium offers mobile wallets for iPhone and Android. All of Mycelium’s applications are open source.
 
-With basic features like watch-only addresses, cold storage spending, and HD accounts, Mycelium is a good option for new users. Advanced options include TREZOR support, xpub/xpriv key exports, and decrypting BIP38 keys.
+Mycelium is a good option for new users, with basic features like watch-only addresses, cold storage spending, and HD accounts. Advanced options include TREZOR support, xpub/xpriv key exports, and decrypting BIP38 keys.
 
 ## Security
 
@@ -14,6 +14,6 @@ Both the iOS and Android apps connect directly to the Mycelium’s servers. Dire
 
 Mycelium’s servers can view your IP address and the balance of your wallet. The company website claims to not log IP information, however there is no way to be sure. Orbot/Tor can be used to hide your IP address from Mycelium.
 
-As an HD wallet, Mycelium does not re-use addresses and automatically generates a new receiving address each time a payment is received.
+As an HD wallet, Mycelium generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.
 
 The Mycelium developers recognized that users value their privacy, and plan to implement CoinJoin in future updates.
