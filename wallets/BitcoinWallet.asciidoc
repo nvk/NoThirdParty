@@ -1,0 +1,15 @@
+Bitcoin Wallet, or “Schildbach Wallet”, was the first mobile Bitcoin wallet and has over 500,000 downloads in the Google Play Store.
+
+## Security
+
+A mobile wallet is only as secure as the device it’s running on. Bitcoin Wallet encrypts all data and keys. An unrooted Android device should be used.
+
+A file containing the wallet’s private keys are encrypted and stored on your phone. The file should be backed up to another location in case your phone is lost or reset.
+
+Bitcoin Wallet is more secure than most mobile Bitcoin wallets, because it connects directly to the Bitcoin network with SPV. Most other wallets connect to centralized servers for transaction information.
+
+## Privacy
+
+Bitcoin Wallet is not an HD wallet. However, it still generates a new address for each transaction making it more difficult for spying or tracking your payments.
+
+Bitcoin Wallet connects directly to the Bitcoin network and peers can see your phone’s IP address.
