@@ -10,6 +10,6 @@ Bitcoin Wallet is more secure than most mobile Bitcoin wallets, because it conne
 
 ## Privacy
 
-Bitcoin Wallet is not an HD wallet. However, it still generates a new address for each transaction making it more difficult for spying or tracking your payments.
+Bitcoin Wallet is an HD wallet. It generates a new address for each transaction making it more difficult for spying or tracking your payments.
 
 Bitcoin Wallet connects directly to the Bitcoin network and peers can see your phone’s IP address.
