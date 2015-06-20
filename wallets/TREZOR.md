@@ -1,6 +1,8 @@
 TREZOR launched in August 2014 as the first Bitcoin hardware wallet, offering secure cold storage plus the ability to spend with the convenience of a hot wallet. TREZOR is a small, key-sized device which connects to your computer with a USB cable. It stores your Bitcoin private keys offline and signs transactions for you. It can be safely used on a malware infected computer.
 
-TREZOR is compatible with a number of wallets, including Electrum, Multibit HD, and GreenAddress on desktop, GreenBits on Android, and myTREZOR.com on the web.
+TREZOR is compatible with a number of wallets, including Electrum, Multibit HD, and GreenAddress on desktop, GreenBits on Android, and myTREZOR.com on the web. Use the TREZOR Chrome extension to manage your device.
+
+TREZOR can also be used as a secure login device on a number of websites. 
 
 ## Security
 
