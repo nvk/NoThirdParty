@@ -1,4 +1,4 @@
-GreenBits is the native Android version of GreenAddress. Its a multi-signature wallet that supports hardware wallets like TREZOR and Ledger. A seed created with GreenAddress can be imported into GreenBits, or a new seed can be created.
+GreenBits is the native Android version of GreenAddress. It's a multi-signature wallet that supports hardware wallets like TREZOR and Ledger. A seed created with GreenAddress can be imported into GreenBits, or a new seed can be created.
 
 By default, GreenBits is a 2 of 2 wallet, which means that you control one private key, and GreenAddress the other. GreenAddress must sign every transaction. This forces you to rely on GA, but offers true 2-factor authentication.
 
