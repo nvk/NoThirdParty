@@ -16,6 +16,6 @@ Both the iOS and Android apps connect directly to the Mycelium's servers. Direct
 
 Mycelium's servers can view your IP address and wallet balance. The company website claims to not log IP information, but there is no way to be sure. Orbot/Tor can be used to hide your IP address from Mycelium.
 
-As an HD wallet, Mycelium generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.
+As an HD wallet, a new address is created for every transaction and addresses are not re-used. Using a new address for each transaction helps prevent spying on your payments and funds.
 
 The Mycelium developers recognized that users value their privacy, and plan to implement CoinJoin in future updates.
