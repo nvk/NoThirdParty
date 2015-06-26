@@ -19,3 +19,5 @@ Mycelium's servers can view your IP address and wallet balance. The company webs
 As an HD wallet, a new address is created for every transaction and addresses are not re-used. Using a new address for each transaction helps prevent spying on your payments and funds.
 
 The Mycelium developers recognized that users value their privacy, and plan to implement CoinJoin in future updates.
+
+Mycelium received a score of 50 out of 100 from the Open Bitcoin Privacy Project’s Spring 2015 report.
