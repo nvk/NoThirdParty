@@ -21,3 +21,5 @@ Tor can be used to prevent the server from knowing your IP address, but cannot p
 Some servers claim to not log or store information, but it is impossible to know for sure without setting up your own Electrum server.
 
 As an HD wallet, Electrum generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.
+
+Electrum received a score of 46 out of 100 from the Open Bitcoin Privacy Project’s Spring 2015 report.
