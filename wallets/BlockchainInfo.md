@@ -23,3 +23,5 @@ Blockchain.info allows you to use an email address or phone number for two-facto
 Blockchain.info claims to only store a hash of the IP address a wallet was created with. Accessing its website through the Tor hidden service prevents leaking your IP address.
 
 You must manually generate a new address for each transaction, which helps prevent spying or tracking of your payments. 
+
+Blockchain.info received two scores from the Open Bitcoin Privacy Project’s Spring 2015 report. Its web wallet received a score of 22 out of 100, and its Android app 14 out of 100.
