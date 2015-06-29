@@ -14,7 +14,7 @@ Users must trust Coinkite to provide the correct transaction data but also inclu
 
 Coinkite doesn't require email or any personal information on signup.
 
-You can generate new addresses on deman, but the “quick deposit” feature reuses the same address. Address reuse makes it easy for others to observe your history on the blockchain and connect your addresses and funds.
+You can generate new addresses on demand, but the “quick deposit” feature reuses the same address. Address reuse makes it easy for others to observe your history on the blockchain and connect your addresses and funds.
 
 Coinkite allows you to access their wallet with a TOR onion address: http://gcvqzacplu4veul4.onion 
 
